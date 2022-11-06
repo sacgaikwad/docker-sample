@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker.unittest", "docker.u
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker.redis", "docker.redis\docker.redis.csproj", "{9D001CA2-27D2-485A-AE36-CDA3ADFDB62C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker.sqlserver", "docker.sqlserver\docker.sqlserver.csproj", "{57ED7A73-D280-4FDC-AA61-B9412AF7FBE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9D001CA2-27D2-485A-AE36-CDA3ADFDB62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D001CA2-27D2-485A-AE36-CDA3ADFDB62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D001CA2-27D2-485A-AE36-CDA3ADFDB62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57ED7A73-D280-4FDC-AA61-B9412AF7FBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ED7A73-D280-4FDC-AA61-B9412AF7FBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ED7A73-D280-4FDC-AA61-B9412AF7FBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ED7A73-D280-4FDC-AA61-B9412AF7FBE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
