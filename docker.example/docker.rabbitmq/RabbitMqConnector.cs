@@ -19,7 +19,7 @@ namespace docker.rabbitmq
         {
             lock (rabbitMqObject)
             {
-                if (connection == null)
+                if (connection == null || connection.IsOpen == false)
                 {
                     var connectionFactory = new ConnectionFactory();
                     connectionFactory.HostName = "localhost";

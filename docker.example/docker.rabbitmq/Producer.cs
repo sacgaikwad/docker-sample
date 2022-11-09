@@ -4,7 +4,7 @@ using System.Text;
 
 namespace docker.rabbitmq
 {
-    public class Producer : IMessageService
+    public class Producer 
     {
         public bool PublishMessage(string message)
         {
@@ -12,8 +12,8 @@ namespace docker.rabbitmq
             {
                 using (var channel = connectionFactory.CreateModel())
                 {
-                    channel.QueueDeclare(queue: "queue-direct-blue",
-                                         durable: false,
+                    channel.QueueDeclare(queue: "queue-direct-green",
+                                         durable: true,
                                          exclusive: false,
                                          autoDelete: false,
                                          arguments: null);
