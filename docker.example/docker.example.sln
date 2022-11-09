@@ -7,7 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker.unittest", "docker.u
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker.redis", "docker.redis\docker.redis.csproj", "{9D001CA2-27D2-485A-AE36-CDA3ADFDB62C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker.sqlserver", "docker.sqlserver\docker.sqlserver.csproj", "{57ED7A73-D280-4FDC-AA61-B9412AF7FBE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "docker.sqlserver", "docker.sqlserver\docker.sqlserver.csproj", "{57ED7A73-D280-4FDC-AA61-B9412AF7FBE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docker.rabbitmq", "docker.rabbitmq\docker.rabbitmq.csproj", "{C0014D03-D413-42C8-B4EA-21DF7BFA5A12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetcore.unittest", "dotnetcore.unittest\dotnetcore.unittest.csproj", "{42E641D2-796B-402E-9652-6A4DF64FE1CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{57ED7A73-D280-4FDC-AA61-B9412AF7FBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57ED7A73-D280-4FDC-AA61-B9412AF7FBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57ED7A73-D280-4FDC-AA61-B9412AF7FBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0014D03-D413-42C8-B4EA-21DF7BFA5A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0014D03-D413-42C8-B4EA-21DF7BFA5A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0014D03-D413-42C8-B4EA-21DF7BFA5A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0014D03-D413-42C8-B4EA-21DF7BFA5A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E641D2-796B-402E-9652-6A4DF64FE1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E641D2-796B-402E-9652-6A4DF64FE1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E641D2-796B-402E-9652-6A4DF64FE1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E641D2-796B-402E-9652-6A4DF64FE1CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

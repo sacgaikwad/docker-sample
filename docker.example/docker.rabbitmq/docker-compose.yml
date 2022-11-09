@@ -1,0 +1,17 @@
+version: '3.6'
+services:
+  rabbitmq-service:
+    container_name: rabbit-mq-server-container
+    image: rabbitmq:3-management
+    networks:
+      - rabbitmq-poc-network
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+    #restart:
+    #  on-failure
+    environment:
+      - RABBITMQ_DEFAULT_USER=myuser
+      - RABBITMQ_DEFAULT_PASS=mypassword  
+networks:
+  rabbitmq-poc-network: {}
